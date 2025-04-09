@@ -1,19 +1,19 @@
-import { Link } from "react-router";
+import { Link } from "react-router"
 
-const Home = () => {
+const NotFound = () => {
   return ( 
     <>
       <div className="flex flex-col justify-center items-center h-screen w-screen bg-preto">
-        <h1 className="text-2xl font-bold text-branco">Logado com sucesso!</h1>
-        <Link
+        <h1 className="text-2xl font-bold text-branco">NotFound Page</h1>
+        <Link 
           to={"/"}
           className="text-azul mt-8"
         >
-          Voltar
+          Votlar
         </Link>
       </div>
     </>
    );
 }
  
-export default Home;
+export default NotFound;

@@ -1,9 +1,10 @@
-import Welcome from "./pages/Welcome"
+import Paths from "./routes/Paths"
+
 
 function App() {
   return (
     <>
-      <Welcome />
+      <Paths />
     </>
   )
 }
