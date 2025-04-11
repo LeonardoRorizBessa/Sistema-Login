@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import LoginForm from "../components/LoginForm"
 
 const SignIn = () => {
   return (  
@@ -11,18 +11,9 @@ const SignIn = () => {
               src="/src/assets/illustration.png" 
               alt="Illustration image" 
             />
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <h1 className="text-2xl font-bold text-branco">Sign In Page</h1>
-            </div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
           </div>
-          <div className="flex flex-col justify-center items-center w-[450px] h-[450px] p-8">
-            <Link 
-              to={"/home"} 
-              className="text-azul mt-8"
-            >
-              Home
-            </Link>
-          </div>
+          <LoginForm />
         </div>
       </div>
     </>
